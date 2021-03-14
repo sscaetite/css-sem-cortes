@@ -1,0 +1,23 @@
+.menu-item {
+	position: relative;
+}
+
+.menu-item:hover:after {
+	content: '';
+	width: 2px;
+	height: 100%;
+	background-color: aqua;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.menu-item:hover:before {
+	content: '';
+	width: 2px;
+	height: 100%;
+	background-color: aqua;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
